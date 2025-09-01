@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Nov 15 20:45:53 2024
+# Process ID: 9556
+# Current directory: D:/Aaalalm/aaVLSI LAB/project_full_adderbehav
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9788 D:\Aaalalm\aaVLSI LAB\project_full_adderbehav\project_full_adder.xpr
+# Log file: D:/Aaalalm/aaVLSI LAB/project_full_adderbehav/vivado.log
+# Journal file: D:/Aaalalm/aaVLSI LAB/project_full_adderbehav\vivado.jou
+# Running On: EEE_07, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 4, Host memory: 4170 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Aaalalm/aaVLSI LAB/project_full_adderbehav/project_full_adder.xpr}
+INFO: [Project 1-313] Project file moved from 'E:/VIVADO/project_full_adder' since last save.
+IINFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Aaalalm/aaVLSI LAB/project_full_adderbehav/project_full_adder.gen/sources_1'.Scanning sources...
+FFinished scanning sourcesINFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1265.004 ; gain = 41.242
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1160] Copying file D:/Aaalalm/aaVLSI LAB/project_full_adderbehav/project_full_adder.runs/synth_1/full_adder.dcp to D:/Aaalalm/aaVLSI LAB/project_full_adderbehav/project_full_adder.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs synth_1 -jobs 2
+[Fri Nov 15 20:47:00 2024] Launched synth_1...
+Run output will be captured here: D:/Aaalalm/aaVLSI LAB/project_full_adderbehav/project_full_adder.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Fri Nov 15 20:48:12 2024] Launched impl_1...
+Run output will be captured here: D:/Aaalalm/aaVLSI LAB/project_full_adderbehav/project_full_adder.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Nov 15 20:50:19 2024] Launched impl_1...
+Run output will be captured here: D:/Aaalalm/aaVLSI LAB/project_full_adderbehav/project_full_adder.runs/impl_1/runme.log
