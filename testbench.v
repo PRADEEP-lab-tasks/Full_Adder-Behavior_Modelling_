@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: ucea 
+// Engineer: PRADEEP
 // 
 // Create Date: 05/07/2024 04:51:21 PM
-// Design Name: 
+// Design Name: FULL_ADDER
 // Module Name: testbench
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
+// Project Name: Full_Adder-Behavior_Modelling
+// Target Devices: ARTIX 7
+// Tool Versions: VIVADO
+// Description: ADDER CAN BE VERIFIED BY GIVING INPUTS FROM SWITCHES AND OBSERVING OUTPUTS ON LED USING BASYS 3 FPGA 
 // 
 // Dependencies: 
 // 
