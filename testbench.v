@@ -25,13 +25,13 @@ module testbench;
     wire sum, carry;
 
     full_adder uut(a, b, cin, sum, carry);
-
+/*
    initial begin
     $dumpfile("testbench.fst");
     $dumpvars(0, tb);
     #1;
   end
- 
+ */
     
     initial begin
         // Test cases
