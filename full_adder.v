@@ -11,9 +11,6 @@
 // Target Devices: ARTIX 7
 // Tool Versions: VIVADO
 // Description: ADDER CAN BE VERIFIED BY GIVING INPUTS FROM SWITCHES AND OBSERVING OUTPUTS ON LED USING BASYS 3 FPGA 
-// 
-// Dependencies: 
-// 
 // Revision:
 // Revision 0.01 - File Created
 // Additional Comments:
