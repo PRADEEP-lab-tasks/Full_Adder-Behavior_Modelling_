@@ -4,6 +4,7 @@
 <Project Product="Vivado" Version="7" Minor="65" Path="D:/Aaalalm/aaVLSI LAB/project_full_adderbehav/project_full_adder.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
+
     <Option Name="Id" Val="714a42ef1d324caf840b398ff6df7073"/>
     <Option Name="Part" Val="xc7a35tcpg236-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
